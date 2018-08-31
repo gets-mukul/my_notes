@@ -1,7 +1,7 @@
 ----------------In this file we will discuss all the concepts of Bit and bit manipulation--------------
-_________________
-|1 Byte == 8 bit|
------------------
+                                         _________________
+                                         |1 Byte == 8 bit|
+                                         -----------------
 
 Trick to  convert decimal number to binary number...............
 
@@ -15,14 +15,52 @@ Step -4] Get the result from bottom up.
 
 
 Example : 28-->14-->7-->3-->1
-		  0    0    1   1   1
+          0    0    1   1   1
 
 Answer : 1 1 1 0 0 == 28
 
 Example : 39-->19-->9-->4-->2-->1
-		  1    1    1   0   0   1
+	  1    1    1   0   0   1
 
 Answer : 1 0 0 1 1 1
 
 ------------------------------------------------------------------------------------------------
 
+Binary LEFT SHIFT OPERATOR( << )
+
+Lets start with an example:
+
+29-->14-->7-->3-->1
+1    0    1   1   1
+
+29 = 1 1 1 0 1 
+
+     1 1 1 0 1 0          <---1st left shift by 1 (29 << 1)--------->58 = 29 * 2^1
+     1 1 1 0 1 0 0        <---2nd left shift by 2 (29 << 2)--------->116 = 29 * 2^2
+     1 1 1 0 1 0 0 0      <---3rd left shift by 3 (29 << 3)--------->232 = 29 * 2^3
+     1 1 1 0 1 0 0 0 0    <---4th left shift by 4 (29 << 4)--------->464 = 29 * 2^4
+     1 1 1 0 1 0 0 0 0 0  <---5th left shift by 5 (29 << 5)--------->928 = 29 * 2^5
+
+Point to remember is : x Left shift of any number(say n) is equals to n*(2^x).
+                     : on each left shift operation n get increases.
+--------------------------------------------------------------------------------------------------
+
+Binary RIGHT SHIFT OPERATOR( >> )
+
+Lets start with an example:
+
+29-->14-->7-->3-->1
+1    0    1   1   1
+
+29 = 1 1 1 0 1 
+
+     0 1 1 1 0  <---1st right shift by 1 (29 >> 1)---------14 = 29 / 2^1
+     0 0 1 1 1  <---2nd right shift by 2 (29 >> 2)--------->7 = 29 / 2^2
+     0 0 0 1 1  <---3rd right shift by 3 (29 >> 3)--------->3 = 29 / 2^3
+     0 0 0 0 1  <---4th right shift by 4 (29 >> 4)--------->1 = 29 / 2^4
+     0 0 0 0 0  <---5th right shift by 5 (29 >> 5)--------->0 = 29 / 2^5
+
+Point to remember is : x Right shift of any number(say n) is equals to n/(2^x).
+		     : on each left shift operation n get decreases.
+-----------------------------------------------------------------------------------------------
+                     
