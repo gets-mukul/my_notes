@@ -7,7 +7,7 @@ Trick to  convert decimal number to binary number...............
 
 Step -1] Divide the given number by  2(say n), leaving the remainder.
 
-Step -2] Continue the step ! till you reach to zero.
+Step -2] Continue the step 1 till you reach to zero.
 
 Step -3] Now, mark all the even number as "0" and all the odd number as "1".
 
