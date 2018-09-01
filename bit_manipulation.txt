@@ -63,4 +63,38 @@ Lets start with an example:
 Point to remember is : x Right shift of any number(say n) is equals to n/(2^x).
 		     : on each left shift operation n get decreases.
 -----------------------------------------------------------------------------------------------
-                     
+
+XOR operator : 
+
+Concept of XOR operator is just a sum of two bits.
+
+0 1--> 1 --> 0 + 1 = 1
+1 0--> 1 --> 1 + 0 = 1
+0 0--> 0 --> 0 + 0 = 0
+1 1--> 0 --> 1 + 1 = 1 0----->here 1 on the most signifiacnt bit is just a carry(which is neglectable).
+
+--------------------------------------------------------------------------------------------------------
+
+What is 2's COMPLEMENT ?
+
+Steps to convert into 2's complement.
+
+Step -1] Convert the  binary number in to 1's complement(invert all the single bit).
+
+EXAMPLE : 1 0 1 0 1 1 0 ---->Binary number
+          0 1 0 1 0 0 1 ---->1's Complement
+
+Step-2] Add 1 to the 1's compliment of the binary number to get final 2's complement.
+
+EXAMPLE : 1 0 1 0 1 1 0 ---->Binary number86
+          0 1 0 1 0 0 1 ---->1's Complement41
+                    + 1
+          -------------
+        1 0 1 0 1 0 1 0 ---->2's complement of binary number.
+
+This one extra bit with "1" at most significant  bit determines the sign bit 
+i.e 1 == negative(-)
+    0 == possitive(+)  
+
+Points to remember : 2's compliment always contain sign bit at most significant bit.
+
