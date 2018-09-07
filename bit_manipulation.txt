@@ -98,3 +98,14 @@ i.e 1 == negative(-)
 
 Points to remember : 2's compliment always contain sign bit at most significant bit.
 
+-------------------------------------------------------------------------------------------------------
+
+Binary Addition Table :         Binary Subtraction Table : 
+
+   bit  bit  SUM  CARRY         bit  bit  SUB  Borrow
+    1    0    1    0             1    0    1     0
+    0    1    1    0             0    1    1     1
+    0    0    0    0             0    0    0     0
+    1    1    0    1             1    1    0     0
+
+---------------------------------------------------------------------------------------
