@@ -1,0 +1,6 @@
+1]Example  8--> 1 0 0 0
+	   7--> 0 1 1 1	
+
+Each decimal number say n, have all the bit after rightmost set bit opposite in its n-1 deciman number.
+
+Explanation : Binary of 8 is 1 0 0 0, here 1 at 4th position is th right most set bit so it's n-1 i.e 7 should be 0 1 1 1.

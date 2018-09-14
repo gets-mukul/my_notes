@@ -3,15 +3,15 @@
                                          |1 Byte == 8 bit|
                                          -----------------
 
-Trick to  convert decimal number to binary number...............
+Best trick to convert decimal number to binary number...............
 
-Step -1] Divide the given number by  2(say n), leaving the remainder.
+Step -1] Divide the given number by 2(say n), leaving the remainder.
 
 Step -2] Continue the step 1 till you reach to zero.
 
 Step -3] Now, mark all the even number as "0" and all the odd number as "1".
 
-Step -4] Get the result from bottom up.
+Step -4] Get the result from right to left.
 
 
 Example : 28-->14-->7-->3-->1
@@ -98,7 +98,7 @@ i.e 1 == negative(-)
 
 Points to remember : 2's compliment always contain sign bit at most significant bit.
 
--------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
 
 Binary Addition Table :         Binary Subtraction Table : 
 
@@ -108,4 +108,5 @@ Binary Addition Table :         Binary Subtraction Table :
     0    0    0    0             0    0    0     0
     1    1    0    1             1    1    0     0
 
----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+
