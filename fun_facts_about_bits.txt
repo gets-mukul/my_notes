@@ -10,3 +10,5 @@ Explanation : Binary of 8 is 1 0 0 0, here 1 at 4th position is th right most se
 3] a + b = a ^ b + 2 *(a & b)
 
 4] All the ood number in binary form contain 1 as their rightmost set bit, and 0 as there their right most set bit.
+
+5] Tick of XOR is if two connection are different then onle we get the output.
